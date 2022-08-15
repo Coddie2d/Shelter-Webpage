@@ -1,0 +1,150 @@
+.logoTitle {
+        color: #545454 !important;
+}
+.logoSubtitle{
+    color: #545454 !important;
+} 
+.wrapper{
+    padding: 0 40px;
+}
+.nav{
+    padding: 30px 0 !important;
+    display: flex;
+    align-items: center;
+}
+.navButtons{
+    color: #545454 !important;
+}
+.paginationSectionH3{
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.times{
+    left: 98% !important;
+    transform: translate(-98%,190%) !important;
+    font-size: 20px !important;
+    padding: 10px 10px !important;
+}
+
+.paginationSection {
+    padding: 80px 40px 100px;
+    background-color: #F6F6F6;
+}
+.card{
+    border-radius: 5px !important;
+    margin: 15px 10px !important;
+    background-color: #fff;
+}
+
+.pagination {
+    padding: 45px 0 10px;
+}
+.paginationCards {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+   
+}
+.paginationArrows {
+}
+.paginationPagesHrefs > li{
+    list-style-type: none;
+}
+.paginationPagesHrefs{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.arrows{
+    cursor: pointer;
+ 
+}
+
+.arrows.disabled{
+    cursor:default;
+}
+.imgPet{
+    height: 250px;
+    max-width: 220px;
+    border-radius: 5px;
+}
+.PaginationNumber{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    list-style-type: none;
+    cursor: pointer;
+    border: solid #F1CDB3 2px;
+    border-radius: 50% !important;
+    padding:15px 22px !important;
+}
+
+.nearBound {
+    border-radius: 50% !important;
+ 
+    padding:15px 16px !important;
+  }
+.PaginationNumber:hover, .PaginationNumber.active {
+    color:coral;
+    background-color: bisque;
+}
+.page-item{
+    padding: 0 5px;
+}
+.page-link{
+    border: solid #F1CDB3 2px;
+    border-radius: 50%;
+    padding:15px 20px;
+}
+.middle{
+    display: flex;
+}
+.paginationButtons{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+@media(max-width:767px){
+    .times{
+        position: fixed;
+        left: 98% !important;
+        transform: translate(-98%,170%) !important;
+        font-size: 20px !important;
+        padding: 10px 10px !important;
+    }
+    
+}
+@media(max-width:11100px) and (min-width:768px){
+    .times{
+        position: fixed;
+        left: 98% !important;
+        transform: translate(-98%,40%) !important;
+        font-size: 20px !important;
+        padding: 10px 10px !important;
+    }
+    
+}
+
+@media(max-width:660px){
+    .times{
+        position: fixed;
+        left: 80% !important;
+        transform: translate(-80%,190%) !important;
+        font-size: 20px !important;
+        padding: 10px 10px !important;
+    }
+    .PaginationNumber{
+        padding:10px 15px !important;
+    }
+    .nearBound {
+        padding:10px 11px !important;
+      }
+    .page-link{
+        padding:10px 15px ;
+    }
+}

@@ -1,0 +1,651 @@
+@media(max-width:1000px){
+    .footerimg{
+        padding: 0;
+    }
+    .footerColumn {
+        padding:  0 20px;
+
+    }
+}
+@media(min-width:990px) {
+    .mySwiper{
+        max-width: 900px;
+        margin: 0 auto;
+    
+    }
+    .slick-slide{
+        width: 254px !important;
+    }
+}
+@media (max-width:960px){
+    .leftArrow {
+        
+        cursor:pointer;
+        border: 1px solid #F1CDB3;
+        border-radius:50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftArrow:hover{
+        background-color: #FDDCC4;
+    }
+    .rightArrow {
+    
+        cursor:pointer;
+        border: 1px solid #F1CDB3;
+        border-radius:50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightArrow:hover{
+        background-color: #FDDCC4;
+    }
+}
+@media (max-width:968px) and (min-width:481px) {
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .headerSection{
+        display: block;
+    }
+    .headerLeft{
+        padding: 50px 0 80px 120px;
+        text-align: left;
+    }
+    .headerParagraph{
+        padding-bottom: 50px;
+    }
+    .MakeAFriend{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+
+    .AboutTheShelter{
+        display: flex;
+        flex-direction: column-reverse;
+     
+    }
+    .aboutRight{
+        text-align: left;
+        display: inline-block;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    
+    .AboutTheShelterImg{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+
+
+
+    .petInfo.active{
+        background-color: white;
+        width: 630px;
+        height: 350px;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transition: left 0.8s ease 0;
+        z-index: 3;
+        border-radius: 5px;
+        
+    }
+    .petInfoBg.active{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transition: left 0.8s ease 0;
+  
+        
+    }
+    .petInfo{
+        
+        position: fixed;
+        transform: translate(-500%,0px);
+    }
+    .times{
+        display: none;
+    }
+    .times.active{
+        position: fixed;
+        left: 95%;
+        top: 0%;
+        transform: translate(70%,-90%);
+        font-size: 25px;
+        border: #F1CDB3 solid 1px;
+        border-radius: 50%;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        z-index: 2;
+        padding: 12px 8px;
+    }
+    .times:hover{
+        background-color: #F1CDB3;
+        
+    }   
+    
+.petInfoInner {
+    display: flex;
+    max-width: 630px;
+    max-height: 350px;
+}
+.petInfoLeft {
+}
+.petInfoLeftImg{
+    border-radius: 5px 0 0 5px;
+    width: 350px;
+    height: 350px;
+}
+.petInfoRight {
+    padding: 10px 0 10px 10px;
+}
+.petInfoRightH3 {
+    color: #000000;
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 10px;
+}
+.petInfoRightH4 {
+    color: #000000;
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 20px;
+}
+.petInfoRightH5 {
+    color: #000000;
+    font-size: 13px;
+    line-height: 17px;
+    width: 260px;
+    padding-bottom: 20px;
+}
+.petInfoRightUl {
+    color: #F1CDB3;
+    padding-left: 15px;
+    padding-bottom: 10px !important;
+}
+.petInfoRightLi {
+    color: #000000;
+    font-size: 15px;
+
+}
+
+
+    .helpShelterCard{
+        padding: 50px 25px;
+    }
+    .helpShelterImagesSubtitle{
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+
+
+
+    .donation{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .donationRight{
+       text-align: left;
+       display: inline-block;
+       margin: 0 auto;
+       padding-bottom: 40px;
+    }
+    .donationDog{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .donationRightH3{
+        
+        width: 300px;
+    }
+    .donationRightH5{
+        min-width: 320px;
+    }
+    .cardNumber{
+        width: 350px;
+    }
+    .donationRightP{
+        width: 380px;
+    }
+
+
+
+
+    .footerLine{
+        display: flex;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px 0;
+    }
+    .footerColumn{
+        padding: 0 20px;
+    }
+    .contactInformationH4{
+        margin-left: 5px;
+        line-height: inherit;
+        letter-spacing: normal;   
+    }
+    .footerimg{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (max-width:750px){
+    .menuIcon{
+        width: 35px;
+        height: 25px;
+        cursor: pointer;
+        position: relative;
+        display: block;
+       
+        z-index: 3;
+    }
+    .menuIcon span,
+    .menuIcon::before,
+    .menuIcon::after{
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 1s ease 0s;
+        background-color: #F1CDB3;
+        
+    }
+    .menuIcon::before,
+    .menuIcon::after{
+        content: "";
+    }
+    .menuIcon::before{
+        top: 0;
+    }
+    .menuIcon::after{
+        bottom: 0;
+    }
+    .menuIcon span {
+        top: 50%;
+        transform: scale(1) translate(0px,-50%);
+    }
+    .navRight{
+        flex-direction: column;
+    }
+    .navBody{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translate(-100%,0px);
+        background-color: rgba(0,0,0,0.9);
+        transition: all 0.4 ease 0;
+        z-index: 1;
+        overflow-y: hidden;
+    }
+    .menuIcon.active span{
+        transform: scale(0) translate(0px,-50%);
+    }
+    .menuIcon.active::before{
+        top:50%;
+        transform: rotate(-45deg) translate(0px,-50%);
+        
+    }
+    .menuIcon.active::after{
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px,50%);
+       
+    }
+    .navBody.active{
+        transform: translate(0px,0%);
+    }
+    .navButtons {
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    .navButtons::before{
+        bottom: 20px;
+        height: 5px;
+    }
+
+
+    
+}
+
+
+
+
+@media (max-width:660px) {
+    .petInfo.active{
+        background-color: white;
+        width: 240px;
+        height: 360px;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transition: left 0.8s ease 0;
+        z-index: 3;
+        border-radius: 5px;
+        
+    }
+    .petInfoBg.active{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transition: left 0.8s ease 0;
+       
+    }
+    .petInfo{
+        
+        position: fixed;
+        transform: translate(-500%,0px);
+    }
+    .times{
+        display: none;
+    }
+    .times.active{
+        position: fixed;
+        left: 88%;
+        top: 0%;
+        transform: translate(70%,-80%);
+        font-size: 13px;
+        border: #F1CDB3 solid 1px;
+        border-radius: 50%;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        z-index: 2;
+        padding: 12px 8px;
+    }
+    .times:hover{
+        background-color: #F1CDB3;
+        
+    }   
+    .navButtons {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+.petInfoInner {
+    display: block;
+    max-width: 240px;
+    max-height: 360px;
+}
+.petInfoLeft {
+    display: none;
+}
+.petInfoLeftImg{
+
+}
+.petInfoRight {
+    padding: 10px 10px;
+}
+.petInfoRightH3 {
+    color: #000000;
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.petInfoRightH4 {
+    color: #000000;
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.petInfoRightH5 {
+    color: #000000;
+    font-size: 12px;
+    line-height: 17px;
+    width: 220px;
+    padding-bottom: 15px;
+}
+
+   
+
+.petInfoRightUl {
+    color: #F1CDB3;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.petInfoRightLi {
+    color: #000000;
+    font-size: 13px;
+
+}
+
+.leftArrow{
+    transform: translate(40%,580%);
+    right: -37%;
+    position: relative;
+ 
+}
+.rightArrow{
+    transform: translate(40%,580%);
+    right: 43%;
+    position: relative;
+ 
+}
+
+}
+@media (max-width:480px ) and ( min-width:280px){
+    .leftArrow{
+        transform: translate(40%,650%);
+        right: -22%;
+        position: relative;
+ 
+    }
+    .rightArrow{
+        transform: translate(40%,650%);
+        right: 32%;
+        position: relative;
+     
+    }
+    .FriendsWhoLookingHomeCardButton{
+        margin-top: 30px;
+    } 
+    
+    
+    .header{
+        padding: 30px 10px 0;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .headerSection{
+        display: block;
+    }
+    .headerLeft{
+        padding-top: 60px;
+    }
+    .headerH2{
+        
+        width: auto;
+    }
+    .headerLeft{
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .headerParagraph{
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 26px;
+        padding-bottom: 50px;
+    }
+    .MakeAFriend{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 100px;
+    }
+    .headerImg{
+        width: 260px;
+        height: 270px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .AboutTheShelter{
+        display: flex;
+        flex-direction: column-reverse;
+       
+
+    }
+    .aboutRight{
+        text-align: left;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    .AboutTheShelterImg{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .aboutRightH3{
+        text-align: center;
+        
+    } 
+
+    
+
+    .helpShelterImg{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .helpShelterCard{
+    
+        padding: 30px 15px;
+    }
+    .helpShelterImagesSubtitle{
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-bottom: 0px;
+    }
+
+
+
+    .donation{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 40px 10px;
+    }
+    .donationRight{
+       text-align: left;
+       display: inline-flex;
+       justify-content: center;
+       flex-direction: column;
+       margin: 0 auto;
+       padding-bottom: 40px;
+       
+    }
+    .donationDog{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 260px;
+        height: 135px;
+    }
+    .donationRightH3{
+        text-align: center;
+        width: 300px;
+        font-size: 25px;
+    }
+    .donationRightH5{
+        min-width: 270px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+    }
+    .cardNumber{
+        display: flex;
+        justify-content: center;
+        min-width: 280px;
+        margin: 0 10px 20px;
+        height: 40px;
+        
+    }
+    .donationRightCardNumberH4 {
+        font-size: 15px;
+    }
+    .donationRightP{
+        width: 280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    .footerLine{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 10px 0;
+        text-align: left;
+    }
+    .columnH3 {
+        text-align: center;
+    }
+    .footerColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0px;
+    }
+    .footerimg{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

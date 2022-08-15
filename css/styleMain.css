@@ -1,0 +1,599 @@
+body{
+    box-sizing: border-box;
+    height: 100%;
+}
+p,body,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+body.lock{
+    overflow: hidden;
+}
+.georgia{
+    font-family:  Georgia;
+    font-size: 35px;
+
+}
+.arial{
+    font-family: Arial;
+    
+}
+.wrapper {
+    
+}
+.header {
+   
+    padding: 60px 40px 0;
+    background: rgb(91,72,58);
+    background: -moz-linear-gradient(161deg, rgba(91,72,58,1) 0%, rgba(38,36,37,1) 100%);
+    background: -webkit-linear-gradient(161deg, rgba(91,72,58,1) 0%, rgba(38,36,37,1) 100%);
+    background: linear-gradient(161deg, rgba(91,72,58,1) 0%, rgba(38,36,37,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b483a",endColorstr="#262425",GradientType=1);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    align-items: center;
+}
+.navLeft {
+    text-align: left;
+}
+
+.logoTitle {
+    color: #F1CDB3 !important;
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+.logoSubtitle {
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-left: 2px;
+    letter-spacing: 1.1px;
+}
+.navBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navButtons {
+    margin-left: 35px;
+    color: #CDCDCD;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+   position: relative;
+}
+.navButtons:hover{
+    color:#FAFAFA;
+}
+.navButtons::before {
+	position: absolute;
+	left: 0; bottom: 0px;
+    height: 3px;
+    background-color: #F1CDB3;
+
+}
+.navButtons:hover:before {
+	width: 100%;
+    content: '';
+}
+
+.menuIcon{
+    display: none;
+}
+
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+}
+.headerLeft {
+    padding: 220px 0 0;
+    text-align: left;
+}
+.headerH2 {
+    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 57px;
+    width: 310px;
+    padding-bottom: 40px;
+}
+
+.headerParagraph {
+    color: #CDCDCD;
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 460px;
+}
+
+.MakeAFriend {
+    background-color: #F1CDB3;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    color:#292929;
+    font-size: 17px;
+    margin-top: 40px;
+    text-align: center;
+}
+.MakeAFriend:hover{
+    background-color: #FDDCC4;
+}
+
+.headerRight {
+}
+.headerImg {
+}
+
+
+
+.AboutTheShelter {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0 100px;
+}
+.aboutLeft {
+}
+.aboutRight {
+    padding-top: 25px;
+}
+.aboutRightH3 {
+    font-size: 35px;
+    line-height: 45px;
+    text-align: left;
+    color: #545454;
+ 
+}
+
+.pad {
+    padding-bottom: 25px;
+}
+.aboutRightParagraph {
+    color: #4C4C4C;
+    font-size: 15px;
+    max-width: 430px;
+}
+
+.FriendsWhoLookingHome {
+    background-color: #F6F6F6;
+    padding: 80px 40px 100px;
+}
+
+.FriendsWhoLookingHomeH3{
+    font-size: 35px;
+    color: #545454;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.FriendsWhoLookingHomeCards {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.leftRightArrows{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.leftArrow{
+    
+    cursor:pointer;
+    border: 1px solid #F1CDB3;
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+   
+   z-index: 5;
+}
+.slick-arrow{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+}
+.leftArrow:hover{
+    background-color: #FDDCC4;
+}
+.rightArrow{
+
+    cursor:pointer;
+    border: 1px solid #F1CDB3;
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+ 
+  
+}
+.rightArrow:hover{
+    background-color: #FDDCC4;
+}
+
+.petInfo.active{
+    background-color: white;
+    width: 900px;
+    height: 500px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: left 1s ease;
+    z-index: 3;
+    border-radius: 5px;
+    
+}
+.petInfoBg.active{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: left 3s ease;
+    z-index: 2;
+}
+.petInfo{
+    
+    position: fixed;
+    transform: translate(-500%,0px);
+}
+.times{
+    display: none;
+}
+.times.active{
+    position: fixed;
+    left: 95%;
+    top: 0%;
+    transform: translate(70%,-90%);
+    font-size: 25px;
+    border: #F1CDB3 solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    z-index: 2;
+    padding: 12px 8px;
+}
+.times:hover{
+    background-color: #F1CDB3;
+    
+}   
+
+
+.petInfoInner {
+    z-index: 6;
+    display: flex;
+    max-width: 900px;
+    max-height: 500px;
+}
+.petInfoLeft {
+}
+.petInfoLeftImg{
+    border-radius: 5px 0 0 5px;
+    width: 500px;
+    height: 500px;
+}
+.petInfoRight {
+    padding: 50px 0 10px 30px;
+}
+.petInfoRightH3 {
+    color: #000000;
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 10px;
+}
+.petInfoRightH4 {
+    color: #000000;
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 40px;
+}
+.petInfoRightH5 {
+    color: #000000;
+    font-size: 15px;
+    line-height: 17px;
+    width: 350px;
+    padding-bottom: 40px;
+}
+
+.petInfoRightUl {
+    color: #F1CDB3;
+    padding-left: 15px;
+
+}
+.petInfoRightLi {
+    color: #000000;
+    font-size: 15px;
+
+}
+
+
+
+
+
+.slick-slide{
+    padding: 0 10px;
+}
+
+.card {
+    margin: 0 10px;
+    border: none;
+    padding: 0;
+    background-color: #FAFAFA;
+    
+}
+
+.imgPet {
+
+    padding-bottom: 30px;
+    margin-right: 0px;
+    margin: 0 auto;
+    width: 100%;
+   height: 250px;
+}
+.toSophiaP{
+    padding-top: 38px;
+}
+.unactive{
+    color: grey;
+    background-color: red;
+    cursor:auto;
+}
+.NameOfPet {
+    font-size: 20px;
+    color: #545454;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.FriendsWhoLookingHomeCardButton {
+    min-width: 150px;
+    max-width: 180px;
+    margin: 0  auto;
+    height: 50px;
+    border-radius: 25px;
+    color:#292929;
+    font-size: 17px;
+    background-color: transparent;
+    border: solid 2px #F1CDB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.FriendsWhoLookingHomeCardButton:hover{
+    background-color: #FDDCC4;
+}
+
+.onlyForPet{
+
+}
+ 
+
+
+.FriendsWhoLookingHomeButton {
+    margin: 0 auto;
+    align-items: center;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: #F1CDB3;
+}
+.FriendsWhoLookingHomeButton:hover{
+    background-color: transparent;
+}
+
+
+.helpShelter {
+    padding: 80px 40px 50px;
+}
+.helpShelterH3 {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    color: #545454;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.helpShelterImages {
+    padding: 60px 25px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.helpShelterImg {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom:30px;
+}
+
+.helpShelterCard{
+   padding: 0 60px;
+   
+}
+.helpShelterImagesSubtitle{
+   
+    font-size: 22px;
+    color: #545454;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.donation{
+    padding: 80px 0 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6F6F6;
+}
+.donationLeft {
+}
+
+.donationRight {
+}
+.donationRightH3 {
+    line-height: 45px;
+    letter-spacing: 1px;
+    color: #545454;
+    font-size: 35px;
+    padding-bottom: 20px;
+    max-width: 300px;
+
+}
+
+.donationRightH5 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #545454;
+    padding-bottom: 20px;
+    
+}
+.cardNumber {
+    background-color: #F1CDB3;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.creditCard{
+    font-size: 23px;
+    margin-right: 15px;
+}
+.donationRightCardNumberH4 {
+    font-size: 20px;
+    color: #545454;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+.donationRightP {
+    line-height: 18px;
+    color: #B2B2B2;
+    font-size: 12px;
+    font-style: italic;
+    max-width: 380px;
+    
+}
+
+.footer{
+    display: flex;
+
+    left: 0;
+    bottom: 0;
+    padding: 60px 40px 0;
+    background: rgb(81,61,47);
+    background: -moz-linear-gradient(112deg, rgba(81,61,47,1) 0%, rgba(26,26,28,1) 100%);
+    background: -webkit-linear-gradient(112deg, rgba(81,61,47,1) 0%, rgba(26,26,28,1) 100%);
+    background: linear-gradient(112deg, rgba(81,61,47,1) 0%, rgba(26,26,28,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#513d2f",endColorstr="#1a1a1c",GradientType=1);
+}
+.footerLine{
+    display: flex;
+}
+.footerColumn {
+    padding: 0 40px;
+}
+.columnH3 {
+    max-width: 380px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 45px;
+    padding-bottom: 40px;
+    
+}
+
+.contactInformation {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.contactInformationH4 {
+    font-size: 20px;
+    color: #F1CDB3;
+    line-height: 23px;
+    letter-spacing: 1px;
+    max-width: 260px;
+    margin-left: 10px;
+}
+.footerimg{
+
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 10%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.slick-slide{
+  
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
