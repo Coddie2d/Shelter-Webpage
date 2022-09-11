@@ -17,7 +17,7 @@ export let info = [
     {img:"img/Scarlet.png",name:'Scarlet4',breed:'Dog - Jack Russell Terrier',description:"Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.",age:2,Inoculations:'none',Diseases:'none',Parasites:'none'},
     {img:"img/Charly.png",name:'Charley11',breed:'Dog - Jack Russell Terrier',description:"This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",age:5,Inoculations:'none',Diseases:'none',Parasites:'none'},
 ]
-//бургер меню
+//burger menu
 
 export let menuIcon = document.querySelector('.menuIcon');
 export let navBody = document.querySelector('.navBody');
